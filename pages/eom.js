@@ -15,7 +15,7 @@ function eom({ employee }) {
             <div className={styles.employeeOfMonth}>
                 <h3>{employee.name}</h3>
                 <h6>{employee.position}</h6>
-                <img src={employee.image}></img>
+                <img alt="employer photo" src={employee.image}></img>
                 <p>{employee.description}</p>
             </div>
         </div>

@@ -13,7 +13,7 @@ export const Feed = ({ pageNumber, articles }) => {
                     <div key={index} className={styles.post}>
                         <h1 onClick={() => (window.location.href = article.url)}>{article.title}</h1>
                         <p>{article.description}</p>
-                        {!!article.urlToImage && <img src={article.urlToImage}></img>}
+                        {!!article.urlToImage && <img alt="news-image" src={article.urlToImage}></img>}
                     </div>
                 ))}
 
